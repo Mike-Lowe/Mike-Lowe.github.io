@@ -1,4 +1,5 @@
 
+
 body {
   font-family: Kumbh Sans, sans-serif;
   background-color: rgb(65, 181, 165);
@@ -12,6 +13,8 @@ background-size: cover;
       rgba(169, 114, 169, 0.6)
 ),
 url(https://wallpaperaccess.com/full/2192654.jpg);
+
+
 
 }
 
@@ -45,8 +48,9 @@ p {
   margin-top: 5px;
 }
 
-.one {
-  color: rgb(9, 215, 237);
+.dev {
+  color: rgb(20, 217, 243);
+  cursor: pointer;
 }
 
 .container {
@@ -70,9 +74,36 @@ p {
   padding: 12px 16px; 
   font-size: 16px;
   cursor: pointer; 
+  border-radius: 10px;
+ 
 }
 
 .btn:hover {
   background-color: rgb(9, 215, 237);
 }
 
+.footer {
+  position: relative;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: min-content;
+  background-color: blanchedalmond;
+  opacity: 0.4;
+  
+}
+
+.footer:hover {
+
+  background-color: rgb(183, 221, 228);
+}
+
+.back-to-bottom {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+a:hover {
+  color: rgb(251, 20, 255);
+}
