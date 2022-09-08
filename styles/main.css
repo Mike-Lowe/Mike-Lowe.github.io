@@ -80,6 +80,7 @@ p {
 
 .btn:hover {
   background-color: rgb(9, 215, 237);
+  transition: 1s;
 }
 
 .footer {
@@ -105,5 +106,14 @@ p {
 }
 
 a:hover {
-  color: rgb(251, 20, 255);
+  color: rgb(245, 9, 226);
 }
+
+#tech {
+  text-decoration: solid;
+}
+
+#home {
+  text-decoration: solid;
+}
+
