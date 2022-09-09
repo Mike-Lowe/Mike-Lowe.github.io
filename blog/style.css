@@ -48,6 +48,10 @@ p {
   transition: 1s;
 }
 
+a:hover {
+  color: rgb(245, 9, 226);
+}
+
 #home {
   text-decoration: solid;
 }
@@ -58,5 +62,9 @@ p {
 
 #code {
   width: 30%;
+}
+
+#tech {
+  text-decoration: solid;
 }
 

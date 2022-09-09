@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(201, 230, 201);
+  font-family: Kumbh Sans, sans-serif;
+  margin: 50px;
+ 
+}
+
+h1 {
+  text-align: center;
+  color: rgb(28, 103, 223);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
+  border: 10px solid rgb(204, 134, 215);
+  padding: 50px;
+  margin: auto;
+ 
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  color: brown;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(162, 76, 93); 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px;
+  cursor: pointer; 
+  border-radius: 10px;
+  
+ 
+}
+
+.btn:hover {
+  background-color: rgb(9, 215, 237);
+  transition: 1s;
+}
+
+a:hover {
+  color: rgb(245, 9, 226);
+}
+
+#home {
+  text-decoration: solid;
+}
+
+#tech {
+  text-decoration: solid;
+}
+
