@@ -1,5 +1,4 @@
 
-
 body {
   font-family: Kumbh Sans, sans-serif;
   background-color: rgb(65, 181, 165);
@@ -14,9 +13,9 @@ background-size: cover;
 ),
 url(https://wallpaperaccess.com/full/2192654.jpg);
 
-
-
 }
+
+
 
 
 h1 {
@@ -117,3 +116,12 @@ a:hover {
   text-decoration: solid;
 }
 
+#git {
+ text-decoration: solid;
+  
+}
+
+#learning {
+
+  text-decoration: solid;
+}
