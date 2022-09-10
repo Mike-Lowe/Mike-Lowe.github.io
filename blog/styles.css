@@ -8,12 +8,12 @@ body {
 h1 {
   text-align: center;
   color: rgb(28, 103, 223);
-  padding-top: 50px;
-  padding-bottom: 50px;
+
   width: 300px;
   border: 10px solid rgb(204, 134, 215);
-  padding: 50px;
+  padding: 20px;
   margin: auto;
+  margin-top: 50px;
  
 }
 
