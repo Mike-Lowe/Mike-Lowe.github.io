@@ -1,22 +1,19 @@
 
 body {
   font-family: Kumbh Sans, sans-serif;
-  background-color: rgb(65, 181, 165);
+  /* background-color: rgb(65, 181, 165); */
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
 
   background-image:
   linear-gradient(
       100deg,
       rgba(91, 142, 139, 0.6),
       rgba(169, 114, 169, 0.6)
-),
-url(https://wallpaperaccess.com/full/2192654.jpg);
+  ),
+  url(https://wallpaperaccess.com/full/2192654.jpg);
 
 }
-
-
-
 
 h1 {
   padding-bottom: 10px;
@@ -53,18 +50,13 @@ p {
 }
 
 .container {
-  width: 70vh;
+  width: 70vw;
   height: 100%;
   background: rgba(220, 210, 211, 0.4);
   border-radius: 5px;
   padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(114, 154, 99);
-  }
-}
 
 .btn {
   background-color: rgb(162, 76, 93); 
@@ -122,6 +114,23 @@ a:hover {
 }
 
 #learning {
-
   text-decoration: solid;
+}
+
+@media (min-width: 320px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(153, 141, 141);
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(194 182 182);
+  }
 }
