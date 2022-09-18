@@ -117,6 +117,10 @@ a:hover {
   text-decoration: solid;
 }
 
+#emo {
+  text-decoration: solid;
+}
+
 @media (min-width: 320px) {
   body {
     background-color: white;
