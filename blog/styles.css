@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
   color: rgb(28, 103, 223);
-
+  font-size: 40px;
   width: 300px;
   border: 10px solid rgb(204, 134, 215);
   padding: 20px;
@@ -49,6 +49,10 @@ a:hover {
 }
 
 #home {
+  text-decoration: solid;
+}
+
+#core {
   text-decoration: solid;
 }
 

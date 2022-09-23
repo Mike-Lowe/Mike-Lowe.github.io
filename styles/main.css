@@ -100,7 +100,14 @@ a:hover {
   color: rgb(245, 9, 226);
 }
 
+#html {
+  text-decoration: solid;
+}
 #tech {
+  text-decoration: solid;
+}
+
+#core {
   text-decoration: solid;
 }
 
