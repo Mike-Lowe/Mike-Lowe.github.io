@@ -1,13 +1,20 @@
 body {
-  background-color: rgb(201, 230, 201);
-  font-family: Kumbh Sans, sans-serif;
-  margin: 50px;
  
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-image: 
+  linear-gradient(
+      100deg,
+      rgba(91, 142, 139, 0.6),
+      rgba(169, 114, 169, 0.6)
+  ),
+  url(https://lh3.googleusercontent.com/pw/AL9nZEWirlDvL1rLuOkqQ4PYeLaFUVTIpMcggs0IJK4jK150utwIetjLn_6Ldgo3SmmCGb_wzVd489Oepv6MNOj47HNRIg_1wrJ3k9Z2Ax7mpFfmm4WeAcbsYS47BVHt6wVPvBeh_aYyFKVYVPjPDpnDaFZhrQ=w1138-h746-no?authuser=0);
+  
 }
 
 h1 {
   text-align: center;
-  color: rgb(28, 103, 223);
+  color: rgb(9, 215, 237);
   font-size: 40px;
   width: 300px;
   border: 10px solid rgb(204, 134, 215);
@@ -20,11 +27,13 @@ h1 {
 h2 {
   text-align: center;
   padding-top: 50px;
-  color: brown;
+  color: rgb(233, 172, 172);
+  font-size: 30px;
 }
 
 p {
   font-size: 20px;
+  color: whitesmoke;
 }
 
 .btn {

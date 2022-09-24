@@ -2,7 +2,7 @@
 body {
   font-family: Kumbh Sans, sans-serif;
   /* background-color: rgb(65, 181, 165); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 
   background-image:
@@ -11,7 +11,7 @@ body {
       rgba(91, 142, 139, 0.6),
       rgba(169, 114, 169, 0.6)
   ),
-  url(https://wallpaperaccess.com/full/2192654.jpg);
+  url(https://lh3.googleusercontent.com/pw/AL9nZEWirlDvL1rLuOkqQ4PYeLaFUVTIpMcggs0IJK4jK150utwIetjLn_6Ldgo3SmmCGb_wzVd489Oepv6MNOj47HNRIg_1wrJ3k9Z2Ax7mpFfmm4WeAcbsYS47BVHt6wVPvBeh_aYyFKVYVPjPDpnDaFZhrQ=w1138-h746-no?authuser=0);
 
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 
 h3 {
-  color: rgb(162, 76, 93);
+  color: rgb(9, 215, 237);
   padding: 20px;
   padding-bottom: 1px;
   font-size: 40px;
