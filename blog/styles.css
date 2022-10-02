@@ -38,7 +38,7 @@ h2 {
 
 p {
   font-size: 20px;
-  color: whitesmoke;
+  color: white;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -97,3 +97,9 @@ text-decoration: solid;
 font-size: 20px;
 }
 
+.list {
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 40px;
+}
