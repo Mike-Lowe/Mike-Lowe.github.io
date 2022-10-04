@@ -203,14 +203,26 @@ a:hover {
 
 .brain {
   font-size: 5rem;
-  cursor: auto;
+  cursor: pointer;
   user-select: none;
   text-align: center;
 }
 
+.shut {
+  display: none;
+}
+
+.light {
+  display: none;
+}
+
+.on {
+  display: block
+}
+
 .mirror {
   font-size: 8rem;
-  cursor: auto;
+  cursor: pointer;
   user-select: none;
   text-align: center;
 }

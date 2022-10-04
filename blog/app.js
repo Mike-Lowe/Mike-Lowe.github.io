@@ -16,3 +16,20 @@ closedFace.addEventListener('click', () => {
     closedFace.classList.remove('active')
   }
 })
+
+let brainShut = document.querySelector('.shut')
+let brainOpen = document.querySelector('.light')
+
+brainOpen.addEventListener('click', () => {
+  if (brainShut.classList.contains('shut')) {
+    brainShut.classList.add('on')
+    brainOpen.classList.remove('on')
+  }
+})
+
+brainShut.addEventListener('click', () => {
+  if (brainOpen.classList.contains('light')) {
+    brainOpen.classList.add('on')
+    brainShut.classList.remove('on')
+  }
+})
