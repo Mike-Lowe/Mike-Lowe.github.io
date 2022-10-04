@@ -227,6 +227,16 @@ a:hover {
   text-align: center;
 }
 
+.hammer {
+  display: none;
+}
 
+.reflect {
+  display: none;
+}
+
+.none {
+  display: block
+}
 
 

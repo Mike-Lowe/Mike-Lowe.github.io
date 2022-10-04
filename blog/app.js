@@ -33,3 +33,20 @@ brainShut.addEventListener('click', () => {
     brainShut.classList.remove('on')
   }
 })
+
+let mirrorReflect = document.querySelector('.reflect')
+let mirrorBroke = document.querySelector('.hammer')
+
+mirrorBroke.addEventListener('click', () => {
+  if (mirrorReflect.classList.contains('reflect')) {
+    mirrorReflect.classList.add('none')
+    mirrorBroke.classList.remove('none')
+  }
+})
+
+mirrorReflect.addEventListener('click', () => {
+  if (mirrorBroke.classList.contains('hammer')) {
+    mirrorBroke.classList.add('none')
+    mirrorReflect.classList.remove('none')
+  }
+})
